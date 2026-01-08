@@ -71,7 +71,7 @@ export default function HomePage() {
               variants={fadeUp}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
-              className="px-6 py-3 bg-white text-green-700 font-semibold rounded-lg shadow-lg mb-10"
+              className="px-6 py-3 bg-white text-green-700 font-semibold rounded-lg shadow-lg mb-10 cursor-pointer"
             >
               Get Started
             </motion.button>
@@ -141,6 +141,14 @@ export default function HomePage() {
             </motion.div>
           ))}
         </motion.div>
+        <motion.button
+          variants={fadeUp}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.97 }}
+          className="flex items-center justify-center mx-auto px-6 py-3 bg-white text-green-700 font-semibold rounded-lg shadow-lg my-10 cursor-pointer"
+        >
+          Get Started
+        </motion.button>
       </motion.section>
 
       {/* TESTIMONIALS */}
